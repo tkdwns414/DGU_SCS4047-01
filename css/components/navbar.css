@@ -1,0 +1,13 @@
+.main_nav {
+  background-color: tomato;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav_btn {
+  font-size: 30px;
+  font-weight: bold;
+}

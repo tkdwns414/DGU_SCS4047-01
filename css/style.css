@@ -1,0 +1,10 @@
+@import "components/navbar.css";
+@import "components/heather.css";
+
+@import "screens/home.css";
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}

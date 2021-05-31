@@ -1,0 +1,9 @@
+.emoji_box {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home_emoji {
+  font-size: 130px;
+}
