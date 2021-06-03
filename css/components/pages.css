@@ -1,0 +1,10 @@
+.animal_flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.animal_name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 300px;
+}
