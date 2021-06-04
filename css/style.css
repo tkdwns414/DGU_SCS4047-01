@@ -4,8 +4,16 @@
 
 @import "screens/home.css";
 
+body {
+  margin: 0px;
+}
+
 a {
   outline: none;
   text-decoration: none;
   color: inherit;
+}
+
+.animal_emoji {
+  font-size: 130px;
 }
