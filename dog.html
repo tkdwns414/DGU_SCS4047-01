@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Dog</title>
+    <script>
+        function get_dog_age(k){
+            var n = prompt("태어난지 몇년 됐나요?(숫자만 입력하세요)")
+            if(n<=2){
+                age = n*12;
+                alert("사람 나이로 "+ age+ " 살이네요");
+            }
+            else{
+                age = 24 + (n-2) * k;
+                alert("사람 나이로 "+ age+ " 살이네요");
+            }
+        }
+    </script>
 </head>
 <body>
     <header class="main_header">
@@ -31,8 +44,19 @@
         </div>
     </section>
     <section>
+        <p>
+            여기 강아지 설명
+        </p>
+    </section>
+    <section>
         <div>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <button onclick="javascript:get_dog_age(4)"> 소형견 </button>
+            <button onclick="javascript:get_dog_age(5)"> 중형견 </button>
+            <button onclick="javascript:get_dog_age(6)"> 대형견 </button>
+        </div>
+
+        <div class="Quiz_section">
+           
         </div>
     </section>
 </body>
