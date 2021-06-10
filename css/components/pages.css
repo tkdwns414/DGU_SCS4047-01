@@ -25,3 +25,22 @@
 .animal_img {
   width: 33.3%;
 }
+
+.age_section {
+  margin-left: 50px;
+}
+.age_section div {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.age_section :nth-child(2) {
+  margin-left: 15px;
+}
+
+.age_section button {
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  margin: 10px 15px;
+}
