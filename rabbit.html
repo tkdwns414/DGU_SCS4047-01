@@ -5,7 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Dog</title>
+    <title>토끼-Rabbit</title>
+    <script>
+        function get_rab_age(k){
+            var n = prompt("태어난지 몇년 됐나요?(숫자만 입력하세요)")
+            if(n<=1){
+                age = n*20;
+                alert("사람 나이로 "+ age+ " 살이네요");
+            }
+            else{
+                age = 20 + (n-1) * k;
+                alert("사람 나이로 "+ age+ " 살이네요");
+            }
+        }
+    </script>
 </head>
 <body>
     <header class="main_header">
@@ -18,5 +31,28 @@
         <a href="rabbit.html" class="nav_btn"><span>Rabbit</span></a>
         <a href="help.html" class="nav_btn"><span>Help</span></a>
     </nav>
+
+    <section class="animal_flex">
+        <div class="animal_index">
+            <div class="animal_name">토끼</div>
+            <span class="animal_emoji">🐇</span>
+        </div>
+        <div class="animal_imgbox">
+            <img src="images/rabbit/#" alt="사모예드" class="animal_img">
+            <img src="images/rabbit/#" alt="포메라니안" class="animal_img">
+            <img src="images/rabbit/#" alt="말라뮤트" class="animal_img">
+        </div>
+    </section>
+    <section>
+        <p>
+            여기 토끼 설명
+        </p>
+    </section>
+    <section>
+        <div class="age_section">
+            <div>토끼 나이 계산기</div>
+            <button onclick="javascript:get_rab_age(7)"> 소형견 </button>
+        </div>
+    </section>
 </body>
 </html>
