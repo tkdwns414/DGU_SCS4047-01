@@ -5,7 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Dog</title>
+    <title>앵무새-Parrot</title>
+    <script>
+        function get_par_age(k){
+            var n = prompt("태어난지 몇년 됐나요?(숫자만 입력하세요)")
+            if(n<=1){
+                age = n*17;
+                alert("사람 나이로 "+ age+ " 살이네요");
+            }
+            else if(n<=2){
+                age = 17 + (n-1) *7;
+                alert("사람 나이로 "+ age+ " 살이네요");
+            }
+            else{
+                age = 24 + (n-2) * k;
+                alert("사람 나이로 "+ age+ " 살이네요");
+            }
+        }
+    </script>
 </head>
 <body>
     <header class="main_header">
@@ -18,5 +35,28 @@
         <a href="rabbit.html" class="nav_btn"><span>Rabbit</span></a>
         <a href="help.html" class="nav_btn"><span>Help</span></a>
     </nav>
+
+    <section class="animal_flex">
+        <div class="animal_index">
+            <div class="animal_name">앵무새</div>
+            <span class="animal_emoji">🦜</span>
+        </div>
+        <div class="animal_imgbox">
+            <img src="images/parrot/#" alt="사모예드" class="animal_img">
+            <img src="images/parrot/#" alt="포메라니안" class="animal_img">
+            <img src="images/parrot/#" alt="말라뮤트" class="animal_img">
+        </div>
+    </section>
+    <section>
+        <p>
+            여기 앵무새 설명
+        </p>
+    </section>
+    <section>
+        <div class="age_section">
+            <div>앵무새 나이 계산기 (왕관앵무 기준)</div>
+            <button onclick="javascript:get_par_age(4)"> 앵무새</button>
+        </div>
+    </section>
 </body>
 </html>
