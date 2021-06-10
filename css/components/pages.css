@@ -16,7 +16,7 @@
 }
 
 .animal_imgbox {
-  border: solid blue 5px;
+  border: solid black 5px;
   display: flex;
   justify-content: space-evenly;
   width: 75%;
