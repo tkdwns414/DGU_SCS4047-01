@@ -27,6 +27,11 @@
   border-radius: 10px;
 }
 
+.animal_explan {
+  margin: 30px 40px;
+  font-size: 20px;
+}
+
 .age_section {
   margin-left: 50px;
 }
