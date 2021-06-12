@@ -3,6 +3,7 @@
 @import "components/pages.css";
 
 @import "screens/home.css";
+@import "screens/help.css";
 
 body {
   margin: 0px;

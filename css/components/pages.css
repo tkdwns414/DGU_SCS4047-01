@@ -16,14 +16,15 @@
 }
 
 .animal_imgbox {
-  border: solid black 5px;
   display: flex;
   justify-content: space-evenly;
   width: 75%;
 }
 
 .animal_img {
-  width: 33.3%;
+  width: 32%;
+  border: solid black 5px;
+  border-radius: 10px;
 }
 
 .age_section {
