@@ -5,10 +5,6 @@
 @import "screens/home.css";
 @import "screens/help.css";
 
-body {
-  margin: 0px;
-}
-
 a {
   outline: none;
   text-decoration: none;

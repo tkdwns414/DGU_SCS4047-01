@@ -3,9 +3,10 @@
   padding: 15px;
   display: flex;
   justify-content: space-around;
-  width: 100%;
   box-sizing: border-box;
-  margin-bottom: 30px;
+  border-radius: 15px;
+  margin: 0px 70px;
+  margin-bottom: 40px;
 }
 
 .nav_btn {
